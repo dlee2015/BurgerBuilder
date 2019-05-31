@@ -7,6 +7,8 @@ import classes from './Auth.css';
 import Spinner from '../../components/UI/Spinner/Spinner';
 import * as actions from '../../store/actions/index';
 
+// DON'T NEED GLOBAL STATE FOR AUTH
+
 class Auth extends Component {
 	state = {
 		controls: {
